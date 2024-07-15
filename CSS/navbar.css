@@ -1,0 +1,43 @@
+/* Navigation Bar */
+.navbar {
+  background-color: var(--main-color);
+  justify-content: start;
+}
+.navbar-toggler-icon {
+  background-color: white;
+}
+.navbar-nav .nav-link {
+  padding-right: 20px;
+}
+.navbar a {
+  color: white;
+}
+.navbar .dropdown-menu > li > a:hover {
+  background-color: var(--secondary-color);
+}
+.navbar .dropdown-menu > li > a {
+  text-align: initial;
+  color: var(--main-color);
+}
+.navbar a:focus,
+.navbar a:hover,
+.navbar a:active,
+.navbar a.active {
+  color: var(--secondary-color);
+}
+.navbar > .container,
+.navbar > .container-fluid {
+  display: contents;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+a:active {
+  color: var(--secondary-color);
+}
+li a .dropdown-item {
+  background-color: var(--main-color);
+}
+.icon {
+  color: white;
+}
